@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Template based on a syllabus by Mitch Keller -->
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./docinfo.ptx" />
+
+  <article xml:id="syllabus">
+    <title>Linear Algebra Syllabus</title>
+    <subtitle>Math 369</subtitle>
+
+    <!-- Include frontmatter -->
+    <xi:include href="./frontmatter.ptx" />
+
+    <!-- Include chapters -->
+    <section xml:id="sec-course-info">
+      <title>Course Information</title>
+      <p>
+        <dl>
+          <li>
+            <title>Course Description</title>
+            <p>
+              Linear algebra is one of the most important subjects in mathematics, with applications everywhere from computer science to chemistry to economics to, most recently, machine learning and AI.  It has a very different feel from calculus and, for most students, takes some getting used to.  That said, it is a lot of fun and gives a small glimpse of the larger landscape of mathematics that is out there to learn.
+            </p>
+          </li>
+          <li>
+          </li>
+        </dl>
+      </p>
+      <paragraphs>
+        <title>Axioms</title>
+        <p>
+          Dr. Federico Ardila, a mathematician at San Francisco State University, developed a set of axioms for mathematics education.  I strongly support them, and so have copied them here.  
+          <ol>
+            <li>
+              <p>
+                Mathematical potential is distributed equally among different groups, irrespective of geographic, demographic, and economic boundaries. 
+              </p>
+            </li>
+            <li>
+              <p>
+                Everyone can have joyful, meaningful, and empowering mathematical experiences. 
+              </p>
+            </li>
+            <li>
+              <p>
+                Mathematics is a powerful, malleable tool that can be shaped and used differently by various communities to serve their needs. 
+              </p>
+            </li>
+            <li>
+              <p>
+                Every student deserves to be treated with dignity and respect.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </paragraphs>
+    </section>
+    <section xml:id="sec-courseschedule">
+      <title>Class Schedule</title>
+      <p>
+        <dl>
+          <li>
+            <title>Meeting Times</title>
+            <p>
+              M, W, F 9-9:50 in Military Sciences 115   
+            </p>
+          </li>
+          <li>
+          </li>
+        </dl>
+        <dl>
+          <li>
+            <title>Office Hours</title>
+            <p>
+              Mondays 10:00 - 11:00 AM and    
+            </p>
+            <p>
+              Wednesdays 1:00 - 2:00 PM in my office, Weber 128   
+            </p>
+          </li>
+          <li>
+          </li>
+        </dl>
+      </p>
+    </section>
+    <section xml:id="sec-staff" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <title>Instructor Information</title>
+        <paragraphs>
+          <p><nbsp/>
+            <dl>
+              <li>
+                <title>Name</title>
+                <p>
+                  Mark Shoemaker
+                </p>
+                <aside component="online">
+            <p>
+              Feel free to address me as Mark.
+
+              My pronouns are he/him/his.
+              </p>
+          </aside>
+              </li>
+              <li>
+                <title>Title</title>
+                <p>
+                  Associate Professor of Mathematics
+                </p>
+              </li>
+              <li>
+                <title>Email</title>
+                <p>
+                  <url href="mailto:mark.shoemaker@colostate.edu">mark.shoemaker@colostate.edu</url>
+                </p>
+              </li>
+            </dl>
+          </p>
+        </paragraphs>
+    </section>
+  <section xml:id="sec-materials">
+    <title>Textbook and Other Required Materials</title>
+    <p>
+      <dl>
+        <li>
+          <title>Textbook</title>
+          <p>
+            A First Course in Linear Algebra, by Ken Kuttler.  There are many versions floating around online, so please use the copy linked to <url href="https://drive.google.com/file/d/19rilajMQELOKUes-q5FXz_D1nbqz_CrZ/view?usp=sharing">here</url>.
+          </p>
+        </li>
+        <li>
+          <p>
+            You should read the relevant sections of the book ahead of class so you are prepared to follow the lectures.
+          </p>
+        </li>
+        <li>
+          <title>Canvas</title>
+          <p>
+            Course materials will be posted to or linked from Canvas. This may include notes, assignments, and practice exams. Announcements from the instructor will also be made through Canvas. You are responsible for reading Canvas announcements in a timely manner.
+          </p>
+        </li>
+        <li>
+          <title>Webwork</title>
+          <p>
+            Homework will be through webwork, which is unfortunately not connected to Canvas.  To sign in, go to <url href="https://wuzzy.natsci.colostate.edu/webwork2/FA-MATH-369B">https://wuzzy.natsci.colostate.edu/webwork2/SP-MATH-369B</url>.  <alert>Your login name will be your netID and your initial password will be your CSU ID number.</alert>    
+           </p>
+        </li>
+      </dl>
+    </p>
+  </section>
+  <section xml:id="sec-assessments">
+    <title>Assessments</title>
+    <paragraphs>
+      <title>Participation and Attendance</title>
+      <p>
+        This is an in-person course and you are expected to attend all class session (unless you are sick in which case you should email me to let me know).  In addition to lectures, class time will be used for group work and in-class exercises.  This is one of the best ways to get practice with the type of problems that will be on the exams.
+      </p>
+      <p>
+          Another component of your participation grade is office hours.  If you are struggling with any of the material, it is your responsibility to come to office hours so I can help clarify things. <em>If you come to office hours at least once in the first 4 weeks you will receive an extra point in the participation component of your grade.</em> 
+      </p>
+    </paragraphs>
+    <paragraphs>
+      <title>Homework</title>
+      <p>
+        The bulk of your grade in the class will be from webwork.  See the link above for how to log in to the webwork system. Homeworks will usually be due on Mondays, and will be roughly every week.  
+      </p>
+    </paragraphs>
+    <paragraphs>
+      <title>Exams</title>
+      <p>
+        This course will have two midterms and a final exam. The questions will be similar to questions you have seen on homeworks or in class.  The dates and times for these assessments are:
+        <dl>
+          <li>
+            <title>Midterm I</title>
+            <p>
+              Friday, September 26, 2025. In class.
+            </p>
+          </li>
+          <li>
+            <title>Midterm II</title>
+            <p>
+              Friday, October 31, 2025. In class.
+            </p>
+          </li>
+          <li>
+            <title>Final Exam</title>
+            <p>
+              The final will occur on the <alert>Wednesday</alert> of finals week, 4:10-6:10 pm in our usual classroom.
+            </p>
+          </li>
+        </dl>
+      </p>
+      <p>
+        During exams, you will not be allowed to use any electronic devices. You will be allowed bring a one-page sheet of notes which you can write yourself before the exam.
+      </p>
+    </paragraphs>
+  </section>
+  <section xml:id="sec-grading">
+    <title>Grading</title>
+    <tabular>
+      <row header="yes" bottom="minor">
+        <cell>Component</cell>
+        <cell>Weight</cell>
+      </row>
+      <row>
+        <cell>Participation and Attendance</cell>
+        <cell>5%</cell>
+      </row>
+      <row>
+        <cell>Hoomework</cell>
+        <cell>40%</cell>
+      </row>
+      <row>
+        <cell>Midterm I</cell>
+        <cell>15%</cell>
+      </row>
+      <row>
+        <cell>Midterm II</cell>
+        <cell>18%</cell>
+      </row>
+      <row>
+        <cell>Final Exam</cell>
+        <cell>22%</cell>
+      </row>
+    </tabular>
+    <p>
+      Grades for the course will be curved at the end of the semester (most likely curved up). Because of how Canvas works, it is difficult to curve grades within that system, so any grades posted to Canvas will only reflect raw scores, not your actual letter grade.  If you have questions about how you're doing in the class at any time, come chat with me or send me an email.</p>
+  </section>
+  <section xml:id="sec-schedule">
+    <title>Tentative Schedule of Topics</title>
+    <p>
+      <tabular>
+      <row header="yes" bottom="minor">
+        <cell>Week</cell>
+        <cell>Date</cell>
+        <cell>Sections</cell>
+        <cell>Notes</cell>
+      </row>
+      <row>
+        <cell>Week 1</cell>
+        <cell>8/25/25</cell>
+        <cell>1.1, 1.2.1</cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>Week 2</cell>
+        <cell>9/1/25</cell>
+        <cell>1.2.2, 1.2.4, 1.2.5</cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>Week 3</cell>
+        <cell>9/8/25</cell>
+        <cell>2.1</cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>Week 4</cell>
+        <cell>9/15/25</cell>
+        <cell>2.1, 3</cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>Week 5</cell>
+        <cell>9/22/25</cell>
+        <cell>3</cell>
+        <cell>Exam I on Friday</cell>
+      </row>
+      <row>
+        <cell>Week 6</cell>
+        <cell>9/29/25</cell>
+        <cell>4.1-4.6</cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>Week 7</cell>
+        <cell>10/6/25</cell>
+        <cell>4.7, 4.8</cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>Week 8</cell>
+        <cell>10/13/25</cell>
+        <cell>4.8, 4.10</cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>Week 9</cell>
+        <cell>10/20/25</cell>
+        <cell>5.1-5.4</cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>Week 10</cell>
+        <cell>11/3/25</cell>
+        <cell>5.5-5.7</cell>
+        <cell>Exam II on Friday</cell>
+      </row>
+      <row>
+        <cell>Week 11</cell>
+        <cell>11/10/25</cell>
+        <cell>7.2</cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>Week 12</cell>
+        <cell>11/17/25</cell>
+        <cell></cell>
+        <cell>Fall Break</cell>
+      </row>
+      <row>
+        <cell>Week 13</cell>
+        <cell>11/24/25</cell>
+        <cell>7.3</cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>Week 14</cell>
+        <cell>12/1/25</cell>
+        <cell>7.4</cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>Week 15</cell>
+        <cell>12/8/25</cell>
+        <cell>9</cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>Finals Week</cell>
+        <cell>12/15/25</cell>
+        <cell></cell>
+        <cell>Final Exam Wednesday</cell>
+      </row>
+    </tabular>
+    </p>
+    
+  </section>
+  <section xml:id="sec-conclusions">
+    <title>Concluding Thoughts</title>
+    <p>Please reach out and let me know if you are having issues with the course or otherwise. I want to make this class work for you, but I can't help unless I know what's going on. The best way to contact me is via email or to just stop by my office.
+    </p>
+  </section>
+  <section xml:id="sec-moreinfo">
+    <title>More information</title>
+    <p>
+      <url href="https://col.st/2FA2g">Syllabus Resources and Policies</url>
+    </p>
+  </section>
+  </article>
+</pretext>
