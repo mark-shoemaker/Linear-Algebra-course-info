@@ -14,22 +14,39 @@
     <!-- Include chapters -->
     <section xml:id="sec-course-info">
       <title>Course Information</title>
-      <p>
-        <dl>
-          <li>
-            <title>Course Description</title>
+      <paragraphs>
+        <title>Course Description</title>
             <p>
               Linear algebra is one of the most important subjects in mathematics, with applications everywhere from computer science to chemistry to economics to, most recently, machine learning and AI.  It has a very different feel from calculus and, for most students, takes some getting used to.  That said, it is a lot of fun and gives a small glimpse of the larger landscape of mathematics that is out there to learn.
             </p>
-          </li>
-          <li>
-          </li>
-        </dl>
-      </p>
+        </paragraphs>
       <paragraphs>
         <title>Axioms</title>
         <p>
           Dr. Federico Ardila, a mathematician at San Francisco State University, developed a set of axioms for mathematics education.  I strongly support them, and so have copied them here.  
+        
+          <dl><li>
+            <title>Axiom 1</title>
+          <p>Mathematical potential is distributed equally among different groups, irrespective of geographic, demographic, and economic boundaries. 
+          </p>
+        </li>
+        <li>
+            <title>Axiom 2</title>
+          <p>Everyone can have joyful, meaningful, and empowering mathematical experiences. </p>
+        </li>
+        <li>    
+          <title>Axiom 3</title>
+          <p>Mathematics is a powerful, malleable tool that can be shaped and used differently by various communities to serve their needs. 
+          </p>
+        </li>
+        <li>
+             <title>Axiom 4</title>  
+            <p>Mathematics is a powerful, malleable tool that can be shaped and used differently by various communities to serve their needs. 
+            </p>
+          </li>
+        </dl>
+      </p>
+          <!-- 
           <ol>
             <li>
               <p>
@@ -51,8 +68,8 @@
                 Every student deserves to be treated with dignity and respect.
               </p>
             </li>
-          </ol>
-        </p>
+          </ol>-->
+       
       </paragraphs>
     </section>
     <section xml:id="sec-courseschedule">
@@ -341,7 +358,7 @@
     </p>
   </section>
   <section xml:id="sec-moreinfo">
-    <title>More information</title>
+    <title>More Information</title>
     <p>
       <url href="https://col.st/2FA2g">Syllabus Resources and Policies</url>
     </p>
