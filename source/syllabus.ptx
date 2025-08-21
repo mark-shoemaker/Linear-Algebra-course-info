@@ -79,7 +79,7 @@
           <li>
             <title>Meeting Times</title>
             <p>
-              M, W, F 9-9:50 in Military Sciences 115   
+              Mon, Wed, Fri, 9:00 - 9:50 in Military Sciences 115   
             </p>
           </li>
           <li>
@@ -89,10 +89,9 @@
           <li>
             <title>Office Hours</title>
             <p>
-              Mondays 10:00 - 11:00 AM and    
-            </p>
-            <p>
-              Wednesdays 1:00 - 2:00 PM in my office, Weber 128   
+              Mon, 10:00 - 11:00 AM and    
+            
+              Wed, 1:00 - 2:00 PM in my office, Weber 128   
             </p>
           </li>
           <li>
@@ -128,6 +127,12 @@
                 <title>Email</title>
                 <p>
                   <url href="mailto:mark.shoemaker@colostate.edu">mark.shoemaker@colostate.edu</url>
+                </p>
+              </li>
+              <li>
+                <title>Office</title>
+                <p>
+                  Weber 128
                 </p>
               </li>
             </dl>
@@ -360,7 +365,9 @@
   <section xml:id="sec-moreinfo">
     <title>More Information</title>
     <p>
-      <url href="https://col.st/2FA2g">Syllabus Resources and Policies</url>
+      This link provides information on CSU policies and resources to help with various challenges you may encounter:
+      
+      <url href="https://col.st/2FA2g">Syllabus Resources and Policies</url>.
     </p>
   </section>
   </article>
